@@ -35,8 +35,7 @@ body {
 
 .left-allign {
     text-align: left;
-    width: 100%;
-    margin-bottom: 10px;
+    width: 100%;  
 }
 
 .learning {
@@ -47,15 +46,27 @@ body {
     border-radius: 6px;
     padding: 6px 12px;
     display: inline-block;
+    margin-bottom: 10px;
 }
 
 .published {
     font-family: 'Figtree', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
+    margin-bottom: 15px;
 }
 
 h2 {
     font-family: 'Figtree', sans-serif;
+    font-size: 26px;
     text-align: left;
+    margin-bottom: 15px;
+}
+
+p {
+    font-family: 'Figtree', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    opacity: 0.4;
+    line-height: 1.5;
 }
