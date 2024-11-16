@@ -69,4 +69,22 @@ p {
     text-align: left;
     opacity: 0.4;
     line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.profile img {
+    height: 32px;
+    width: 32px;
+}
+
+.profile-name {
+    font-family: 'Figtree', sans-serif;
+    font-weight: 800;
 }
